@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Ruby on Rails",
+    "level": 85,
+    "description": [
+      "Expert in Rails development for web applications and backend architecture.",
+      "Able to write maintainable, scalable, and high-quality code."
+    ]
+  },
+  {
+    "title": "JavaScript",
+    "level": 80,
+    "description": [
+      "Proficient in modern JS frameworks and libraries, including React.",
+      "Able to integrate frontend interactions with backend systems efficiently."
+    ]
+  },
+  {
+    "title": "TailwindCSS",
+    "level": 75,
+    "description": [
+      "Skilled in styling web applications using TailwindCSS for clean and responsive designs.",
+      "Support and train team members on best practices."
+    ]
+  },
+  {
+    "title": "CI/CD & Automation",
+    "level": 75,
+    "description": [
+      "Design and implement CI/CD pipelines to automate testing, deployment, and monitoring.",
+      "Ensure smooth continuous delivery and system reliability."
+    ]
+  }
+]

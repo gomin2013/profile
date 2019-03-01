@@ -1,0 +1,126 @@
+#content {
+  .contact {
+    .social {
+      float: right;
+
+      .list {
+        li {
+          float: left;
+          margin-left: 15px;
+
+          a {
+            background-color: #dddddd;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 20px auto;
+            border-radius: 50%;
+            height: 35px;
+            width: 35px;
+            transition: all 0.3s ease-in-out;
+          }
+        }
+
+        .linkedin a {
+          background-image: url("../../../svg/contact/social/linkedin.svg");
+          background-position: center 40%;
+          background-size: 19px auto;
+
+          &:hover {
+            background-color: #1a84bc;
+          }
+        }
+
+        .pinterest a {
+          background-image: url("../../../svg/contact/social/pinterest.svg");
+
+          &:hover {
+            background-color: #bd081c;
+          }
+        }
+
+        .github a {
+          background-image: url("../../../svg/contact/social/github.svg");
+
+          &:hover {
+            background-color: #800080;
+          }
+        }
+
+        .line a {
+          background-image: url("../../../svg/contact/social/line.svg");
+
+          &:hover {
+            background-color: #00b900;
+          }
+        }
+
+        .twitter a {
+          background-image: url("../../../svg/contact/social/twitter.svg");
+
+          &:hover {
+            background-color: #55acee;
+          }
+
+          background-position: 55% center;
+        }
+
+        .facebook a {
+          background-image: url("../../../svg/contact/social/facebook.svg");
+
+          &:hover {
+            background-color: #3a559f;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #content {
+    .contact {
+      .social {
+        padding: 40px 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #content {
+    .contact {
+      .social {
+        border-top: 1px solid #eeeeee;
+        float: none;
+        padding: 5% 0;
+
+        .list {
+          font-size: 0;
+          text-align: center;
+
+          li {
+            display: inline-block;
+            float: none;
+            margin: 0 3%;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #content {
+    .contact {
+      .social {
+        .list {
+          white-space: nowrap;
+          li {
+            margin: 0 2%;
+          }
+        }
+      }
+    }
+  }
+}

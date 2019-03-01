@@ -1,0 +1,80 @@
+[
+  {
+    "position": "Programmer",
+    "company": "ABROADERS",
+    "type": "Full-Time",
+    "period": ["January 2018", "December 2021"],
+    "description": {
+      "list": [
+        "Develop web applications using Ruby on Rails and Sinatra.",
+        "Set up development environments with Docker, Vagrant, and VirtualBox on CentOS.",
+        "Build frontends with Slim, SCSS, React, Webpack, and CoffeeScript.",
+        "Write and maintain tests using RSpec, RuboCop, and CircleCI.",
+        "Collaborate with teams using Git and GitHub.",
+        "Deploy and manage projects on Heroku.",
+        "Use Backlog for project management.",
+        "Work comfortably with RubyMine, DataGrip, and WebStorm on macOS."
+      ]
+    }
+  },
+  {
+    "position": "Lead Web Developer",
+    "company": "ABROADERS",
+    "type": "Full-Time",
+    "period": ["January 2022", "Present"],
+    "description": {
+      "list": [
+        "Lead technical strategy and architecture decisions for web applications.",
+        "Provide technical leadership through code reviews, mentoring, and establishing best practices.",
+        "Implement CI/CD pipelines and automate testing, deployment, and monitoring.",
+        "Develop advanced features for talent management system, including grouping & visibility settings and custom talent fields.",
+        "Manage project requirements, clarify specifications, and coordinate between developers, PM, and stakeholders.",
+        "Promote team collaboration and communication using Backlog, Gantt charts, and task breakdowns.",
+        "Ensure database integrity, optimize queries, and maintain scalable system design for long-term operation.",
+        "Share knowledge and train team members on best practices, Ruby/Rails tips, JS packages, and front-end styling with TailwindCSS."
+      ]
+    }
+  },
+  {
+    "position": "WordPress Developer",
+    "company": "MultiSoft Corporation",
+    "type": "Full-Time",
+    "period": ["August 2017", "December 2017"],
+    "description": {
+      "text": [
+        "Develop custom WordPress plugins and integrate them with themes.",
+        "Optimize CMS performance and handle technical aspects.",
+        "Work with WP REST API and WP-CLI. Build and customize Divi modules.",
+        "Set up development environments using Vagrant and VirtualBox.",
+        "Collaborate via Bitbucket and manage projects with Jira."
+      ]
+    }
+  },
+  {
+    "position": "Web Designer",
+    "company": "Break Field (Thailand)",
+    "type": "Full-Time",
+    "period": ["January 2017", "August 2017"],
+    "description": {
+      "text": [
+        "Design creative features for products and websites.",
+        "Plan UI/UX to make websites user-friendly.",
+        "Develop frontends with HTML and CSS. Prototype mobile and web products.",
+        "Conduct user testing and iterate designs based on feedback."
+      ]
+    }
+  },
+  {
+    "position": "Web Designer",
+    "company": "DYM (Thailand)",
+    "type": "Full-Time",
+    "period": ["December 2012", "December 2016"],
+    "description": {
+      "text": [
+        "Create responsive web designs and develop WordPress sites using PHP and plugins.",
+        "Design SEO-friendly layouts and client-themed websites.",
+        "Redesign website graphics using Photoshop and Illustrator."
+      ]
+    }
+  }
+]

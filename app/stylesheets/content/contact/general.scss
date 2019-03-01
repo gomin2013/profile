@@ -1,0 +1,90 @@
+#content {
+  .contact {
+    .general {
+      float: left;
+      margin: 8px 0;
+
+      .list {
+        li {
+          float: left;
+          line-height: 1;
+          margin-right: 15px;
+          padding-left: 30px;
+          position: relative;
+
+          &::before {
+            background-color: #f2968f;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: auto 10px;
+            border-radius: 50%;
+            content: "";
+            left: 0;
+            padding: 10px;
+            position: absolute;
+            top: 0;
+          }
+        }
+
+        .location::before {
+          background-image: url("../../../svg/contact/general/location.svg");
+        }
+
+        .email::before {
+          background-image: url("../../../svg/contact/general/email.svg");
+        }
+
+        .tel::before {
+          background-image: url("../../../svg/contact/general/tel.svg");
+        }
+
+        a {
+          color: #221726;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #content {
+    .contact {
+      .general {
+        margin: 0;
+
+        .list {
+          margin-bottom: 40px;
+
+          li {
+            float: none;
+            margin: 0 0 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #content {
+    .contact {
+      .general {
+        float: none;
+        margin: 0;
+
+        .list {
+          margin-bottom: 8%;
+
+          li {
+            margin-bottom: 5%;
+
+            &::before {
+              margin-top: 3px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

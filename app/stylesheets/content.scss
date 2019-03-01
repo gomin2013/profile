@@ -1,0 +1,141 @@
+#content {
+  margin: -60px 20px 0;
+  position: relative;
+
+  &::before, &::after {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    content: "";
+    height: 17px;
+    left: 0;
+    margin: auto;
+    max-width: 1200px;
+    position: absolute;
+    right: 0;
+  }
+
+  .wrap {
+    .inner {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+      padding: 30px;
+    }
+  }
+
+  .contact, .boxes li {
+    border-bottom: 1px solid #fbdfdd;
+  }
+
+  .boxes {
+    li {
+      padding: 30px 0 20px;
+
+      &:last-child {
+        border: 0 none;
+      }
+    }
+
+    h2 {
+      float: left;
+      font-size: 35px;
+      margin-left: 20px;
+      width: 280px;
+
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+  }
+
+  .b04 {
+    h2 {
+    }
+
+    .main {
+      overflow: hidden;
+
+      li {
+        overflow: hidden;
+        border-color: #eeeeee;
+      }
+    }
+
+    .pie-chart {
+      margin-right: 20px;
+    }
+
+    .text {
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #content {
+    margin: 0;
+
+    .wrap {
+      .inner {
+        border-radius: 0;
+      }
+    }
+
+    .boxes {
+      h2 {
+        margin-left: 0;
+        margin-right: 5%;
+        width: 30%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #content {
+    .wrap {
+      .inner {
+        padding: 8%;
+      }
+    }
+
+    .contact, .boxes li {
+      border-color: #eeeeee;
+    }
+
+    .boxes {
+      li {
+        padding: 8% 0 5%;
+      }
+
+      h2 {
+        float: none;
+        font-size: 1.5em;
+        margin: 0 0 5%;
+        width: auto;
+      }
+    }
+
+    .b04 {
+      .title h3 {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #content {
+    .b04 {
+      .pie-chart {
+        float: none;
+        margin: auto;
+      }
+
+      .text {
+        text-align: center;
+      }
+    }
+  }
+}

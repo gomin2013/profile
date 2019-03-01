@@ -1,0 +1,14 @@
+#content {
+  .contact {
+    overflow: hidden;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #content {
+    .contact {
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,94 @@
+#content {
+  .education {
+    .list {
+      overflow: hidden;
+
+      li {
+        border-bottom: 0;
+        margin-bottom: 1.5rem;
+        padding: 0;
+      }
+
+      .title {
+        align-items: center;
+        display: flex;
+        margin-bottom: 1rem;
+
+        h3 {
+          flex: 1;
+          font-size: 26px;
+          font-weight: 700;
+          margin-right: 0.5rem;
+
+          &, span {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+
+          span {
+            display: block;
+            font-size: 20px;
+            font-weight: normal;
+          }
+        }
+
+        .period {
+          background-color: #f2968f;
+          border-radius: 20px;
+          color: #fff;
+          height: 40px;
+          line-height: 40px;
+          padding: 0 20px;
+          text-align: center;
+          text-transform: uppercase;
+        }
+
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      .text {
+        p {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #content {
+    .education {
+      .list {
+        .title {
+          margin-bottom: 1rem;
+          display: block;
+
+          h3 {
+            font-size: 1.2em;
+            margin-bottom: 1.5rem;
+
+            &, span {
+              overflow: visible;
+              white-space: normal;
+            }
+
+            span {
+              font-size: 0.8em;
+            }
+          }
+
+          .period {
+            background-color: #eeeeee;
+            color: #999999;
+            font-size: 0.9em;
+          }
+        }
+      }
+    }
+  }
+}

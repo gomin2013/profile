@@ -1,0 +1,150 @@
+{
+  "name": "Watthajak Jinasam",
+  "title": "Lead Web Developer",
+  "professional": "Experienced Lead Web Developer with expertise in Ruby on Rails, JavaScript, and modern web technologies. Skilled in technical leadership, project management, team mentoring, and continuous delivery. Strong focus on building scalable, maintainable, and high-quality web applications.",
+  "education": {
+    "university": "Rajamangala University of Technology Suvarnabhumi",
+    "degree": "Business Information Technology - Bachelor",
+    "gpa": "3.79",
+    "period": "2010-2012"
+  },
+  "experience": [
+    {
+      "position": "Programmer",
+      "company": "ABROADERS",
+      "type": "Full-Time",
+      "period": ["January 2018", "June 2022"],
+      "description": {
+        "list": [
+          "Develop web applications using Ruby on Rails and Sinatra.",
+          "Set up development environments with Docker, Vagrant, and VirtualBox on CentOS.",
+          "Build frontends with Slim, SCSS, React, Webpack, and CoffeeScript.",
+          "Write and maintain tests using RSpec, RuboCop, and CircleCI.",
+          "Collaborate with teams using Git and GitHub.",
+          "Deploy and manage projects on Heroku.",
+          "Use Backlog for project management.",
+          "Work comfortably with RubyMine, DataGrip, and WebStorm on macOS."
+        ]
+      }
+    },
+    {
+      "position": "Lead Web Developer",
+      "company": "ABROADERS",
+      "type": "Full-Time",
+      "period": ["July 2022", "Present"],
+      "description": {
+        "list": [
+          "Lead technical strategy and architecture decisions for web applications.",
+          "Provide technical leadership through code reviews, mentoring, and establishing best practices.",
+          "Implement CI/CD pipelines and automate testing, deployment, and monitoring.",
+          "Develop advanced features for talent management system, including grouping & visibility settings and custom talent fields.",
+          "Manage project requirements, clarify specifications, and coordinate between developers, PM, and stakeholders.",
+          "Promote team collaboration and communication using Backlog, Gantt charts, and task breakdowns.",
+          "Ensure database integrity, optimize queries, and maintain scalable system design for long-term operation.",
+          "Share knowledge and train team members on best practices, Ruby/Rails tips, JS packages, and front-end styling with TailwindCSS."
+        ]
+      }
+    },
+    {
+      "position": "WordPress Developer",
+      "company": "MultiSoft Corporation",
+      "type": "Full-Time",
+      "period": ["August 2017", "December 2017"],
+      "description": {
+        "text": [
+          "Develop custom WordPress plugins and integrate them with themes.",
+          "Optimize CMS performance and handle technical aspects.",
+          "Work with WP REST API and WP-CLI. Build and customize Divi modules.",
+          "Set up development environments using Vagrant and VirtualBox.",
+          "Collaborate via Bitbucket and manage projects with Jira."
+        ]
+      }
+    },
+    {
+      "position": "Web Designer",
+      "company": "Break Field (Thailand)",
+      "type": "Full-Time",
+      "period": ["January 2017", "August 2017"],
+      "description": {
+        "text": [
+          "Design creative features for products and websites.",
+          "Plan UI/UX to make websites user-friendly.",
+          "Develop frontends with HTML and CSS. Prototype mobile and web products.",
+          "Conduct user testing and iterate designs based on feedback."
+        ]
+      }
+    },
+    {
+      "position": "Web Designer",
+      "company": "DYM (Thailand)",
+      "type": "Full-Time",
+      "period": ["December 2012", "December 2016"],
+      "description": {
+        "text": [
+          "Create responsive web designs and develop WordPress sites using PHP and plugins.",
+          "Design SEO-friendly layouts and client-themed websites.",
+          "Redesign website graphics using Photoshop and Illustrator."
+        ]
+      }
+    }
+  ],
+  "skills": [
+    {
+      "title": "Ruby on Rails",
+      "level": 85,
+      "description": [
+        "Expert in Rails development for web applications and backend architecture.",
+        "Able to write maintainable, scalable, and high-quality code."
+      ]
+    },
+    {
+      "title": "JavaScript",
+      "level": 80,
+      "description": [
+        "Proficient in modern JS frameworks and libraries, including React.",
+        "Able to integrate frontend interactions with backend systems efficiently."
+      ]
+    },
+    {
+      "title": "TailwindCSS",
+      "level": 75,
+      "description": [
+        "Skilled in styling web applications using TailwindCSS for clean and responsive designs.",
+        "Support and train team members on best practices."
+      ]
+    },
+    {
+      "title": "CI/CD & Automation",
+      "level": 75,
+      "description": [
+        "Design and implement CI/CD pipelines to automate testing, deployment, and monitoring.",
+        "Ensure smooth continuous delivery and system reliability."
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "web2017-11-30",
+      "caption": "*",
+      "categories": ["design"]
+    },
+    {
+      "name": "web2017-11-15",
+      "caption": "*",
+      "categories": ["responsive", "wordpress"]
+    }
+  ],
+  "contact": {
+    "location": "Bangkok, Thailand",
+    "email": "gomin2013@hotmail.com",
+    "tel": "+66 80 438 4487"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/gomin2013",
+    "pinterest": "https://www.pinterest.com/gomin2012/",
+    "github": "https://github.com/gomin2013",
+    "line": "http://line.me/ti/p/~gomin.2012",
+    "twitter": "https://twitter.com/gomin2013",
+    "facebook": "https://www.facebook.com/gomin.2012"
+  }
+}

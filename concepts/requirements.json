@@ -1,0 +1,43 @@
+{
+  "technology": [
+    "Vue.js",
+    "Nuxt.js",
+    "Vite",
+    "Docker",
+    "Node.js >= 20"
+  ],
+  "features": [
+    "Personal profile page",
+    "CV/Resume management",
+    "Portfolio showcase",
+    "Responsive design",
+    "Edit profile, experience, skills, and portfolio via cv.json"
+  ],
+  "structure": {
+    "app/": "Vue/Nuxt source code and components",
+    "concepts/": "Data files (cv.json, requirements.json)",
+    "docs/": "Static assets and HTML",
+    "Dockerfile": "Container setup for development and deployment",
+    "docker-compose.development.yml": "Development environment configuration"
+  },
+  "usage": {
+    "local": [
+      "npm install",
+      "npm run dev"
+    ],
+    "docker": [
+      "docker-compose -f docker-compose.development.yml up --build"
+    ],
+    "access": "http://localhost:3000"
+  },
+  "environment": {
+    "os": ["macOS", "Linux", "Windows"],
+    "node": ">= 20",
+    "docker": "Recommended for development and deployment"
+  },
+  "data": {
+    "profile": "Edit concepts/cv.json for personal info, experience, skills, and portfolio",
+    "format": "JSON"
+  }
+}
+

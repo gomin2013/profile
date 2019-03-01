@@ -1,0 +1,65 @@
+::selection {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0 0.25rem;
+}
+
+body {
+  color: #221726;
+  font-family: 'Thai Sans Lite', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+
+  a {
+    display: block;
+
+    &:hover {
+    }
+  }
+}
+
+h1, h2 {
+  line-height: 1;
+}
+
+#page .wrap {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.medium, .small {
+  display: none;
+}
+
+@media screen and (max-width: 980px) {
+  img {
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+  }
+  #page {
+    min-width: 320px;
+
+    .wrap {
+      width: auto;
+    }
+  }
+  .desktop {
+    display: none;
+  }
+  .medium {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  body {
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+  .medium {
+    display: none;
+  }
+  .small {
+    display: block;
+  }
+}
