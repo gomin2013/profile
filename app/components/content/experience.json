@@ -1,0 +1,63 @@
+[
+  {
+    "position": "Programmer",
+    "company": "ABROADERS",
+    "type": "Full-Time",
+    "period": ["January 2018", "PRESENT"],
+    "description": {
+      "list": [
+        "Develop Web applications using MVC frameworks such as Ruby on Rails/Sinatra.",
+        "Use Docker + Vagrant + VirtualBox on CentOS as a development environment.",
+        "Write Slim + SCSS for frontend development and ability to use React + Webpack + CoffeeScript.",
+        "Use testing frameworks such as Rspec + RuboCop + CircleCI.",
+        "Use Git/GitHub for team collaboration.",
+        "Familiar with the Heroku Web Service.",
+        "Work on a project management tool (Backlog by Nulab).",
+        "Comfortable to use RubyMine/DataGrip/WebStorm on MacOS."
+      ]
+    }
+  },
+  {
+    "position": "WordPress Developer",
+    "company": "MultiSoft Corporation",
+    "type": "Full-Time",
+    "period": ["August 2017", "December 2017"],
+    "description": {
+      "text": [
+        "Write WordPress plugins for custom functionality and integrate plugins with themes.",
+        "Ensure high-performance and manage all technical aspects of the CMS.",
+        "Experienced in writing WP REST API & WP-CLI. Build Divi modules and customize Divi Builder.",
+        "Work on development environments using Vagrant + VirtualBox.",
+        "Use Bitbucket for Team collaboration. Work on Jira as a project management tool."
+      ]
+    }
+  },
+  {
+    "position": "Web Designer",
+    "company": "Break Field (Thailand)",
+    "type": "Full-Time",
+    "period": ["January 2017", "August 2017"],
+    "description": {
+      "text": [
+        "Expertise and creative the Design feature of the product.",
+        "Think the UI/UX for the website to make the product user friendly.",
+        "Write HTML/CSS for front end part. Prototyping mobile and web products.",
+        "Facilitating user testing of UI mockups and prototypes to get feedback for quick iterations."
+      ]
+    }
+  },
+  {
+    "position": "Web Designer",
+    "company": "DYM (Thailand)",
+    "type": "Full-Time",
+    "period": ["December 2012", "December 2016"],
+    "description": {
+      "text": [
+        "Proficient and creative in building web responsive design.",
+        "Experienced in developing WordPress sites by using PHP and plugins.",
+        "Design and build high quality backlink sites by following the SEO friendly layouts and client theme requirements.",
+        "Redesign layout and graphic of websites by using Photoshop or Illustrator."
+      ]
+    }
+  }
+]

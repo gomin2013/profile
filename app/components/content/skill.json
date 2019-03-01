@@ -1,0 +1,40 @@
+[
+  {
+    "title": "WordPress",
+    "level": 75,
+    "description": [
+      "Proficient and creative WordPress developer with a strong history in website development.",
+      "Expert in all aspects of WordPress website creation, including design, plugins, and implementation."
+    ]
+  },
+  {
+    "title": "PHP",
+    "level": 65,
+    "description": [
+      "Vestibulum feugiat gravida est nec ultrices.",
+      "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "Etiam vel velit quam. Donec quis porta libero.",
+      "Mauris faucibus erat elit, nec malesuada augue varius sit amet lorem eu posuere."
+    ]
+  },
+  {
+    "title": "jQuery",
+    "level": 75,
+    "description": [
+      "Vestibulum feugiat gravida est nec ultrices.",
+      "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "Etiam vel velit quam. Donec quis porta libero.",
+      "Mauris faucibus erat elit, nec malesuada augue varius sit amet lorem eu posuere."
+    ]
+  },
+  {
+    "title": "HTML & CSS",
+    "level": 80,
+    "description": [
+      "Vestibulum feugiat gravida est nec ultrices.",
+      "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "Etiam vel velit quam. Donec quis porta libero.",
+      "Mauris faucibus erat elit, nec malesuada augue varius sit amet lorem eu posuere."
+    ]
+  }
+]

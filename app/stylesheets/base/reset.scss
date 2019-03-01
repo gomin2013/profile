@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, li, table, th, td, form, select, option, address, pre, strong, em, caption, cite, code, dfn, var, div {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-weight: normal;
+  font-style: normal;
+}
+
+img {
+  border: 0;
+  background-color: transparent;
+  vertical-align: bottom;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+caption, th {
+  text-align: left;
+}
+
+fieldset {
+  border: 0;
+}
+
+hr {
+  display: none;
+}
+
+ol {
+  list-style: none;
+}
+
+ul {
+  list-style: none;
+
+  ul {
+    font-size: 100%;
+  }
+}
+
+ol ul, ul ol, ol ol {
+  font-size: 100%;
+}
+
+dl {
+  ul, ol, dl {
+    font-size: 100%;
+  }
+}
+
+td td, h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: meiryo, Georgia;
+  font-size: 78%;
+  font-size: 12px \9;
+  line-height: 1.3;
+
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+ul.disc li {
+  list-style: disc inside;
+}
+
+body, td, th {
+  word-wrap: break-word;
+}
+
+a, img {
+  display: block;
+}
