@@ -41,7 +41,7 @@
     "imagesloaded": "^4.1.4",
     "is-in-viewport": "^3.0.4",
     "isotope-layout": "^3.0.6",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-icons": "^3.5.0"
