@@ -1,0 +1,252 @@
+<!doctype html>
+<!-- EN + TH live in the page; the other 10 languages come from i18n/<code>.json keyed by the .en HTML (ADR-004). Run node test-i18n.js after editing English copy. -->
+<html lang="en" data-i18n="/profile/i18n/">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-th="Watthajak Jinasam · Lead Web Developer (Ruby on Rails)">Watthajak Jinasam · Lead Web Developer (Ruby on Rails)</title>
+  <meta name="description" data-th="Watthajak Jinasam หัวหน้านักพัฒนาเว็บ ทำระบบ ATS ด้วย Ruby on Rails และ PostgreSQL ตั้งแต่ปี 2018 และสร้างแอป macOS ฟรีสำหรับนักพัฒนา" content="Watthajak Jinasam — lead web developer building an applicant tracking system with Ruby on Rails and PostgreSQL since 2018, and free native macOS tools for developers.">
+  <link rel="canonical" href="https://gomin2013.github.io/profile/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Watthajak Jinasam · Lead Web Developer">
+  <meta property="og:description" data-th="Ruby on Rails · PostgreSQL · ระบบ ATS · แอป macOS โอเพนซอร์ส" content="Ruby on Rails · PostgreSQL · HR tech · open-source macOS apps">
+  <meta property="og:url" content="https://gomin2013.github.io/profile/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="th_TH">
+  <meta property="og:image" content="https://gomin2013.github.io/profile/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+  <!-- ponytail: styles and scripts come from the hosts-manager project site on this same origin (like gomin2013.github.io) -->
+  <link rel="stylesheet" href="/hosts-manager/assets/site.css">
+  <!-- Same as the index site's snippet, plus ?lang=th so a Thai link can be shared -->
+  <script>try{var d=document.documentElement,n=(navigator.language||"").toLowerCase(),l=(location.search.match(/[?&]lang=([\w-]+)/)||[])[1]||localStorage.getItem("hm.lang")||(/^zh-(hant|tw|hk|mo)/.test(n)?"zh-Hant":/^zh/.test(n)?"zh-Hans":/^fil/.test(n)?"tl":n.slice(0,2));if("en th ja ko vi id ms tl zh-Hans zh-Hant es ru".split(" ").indexOf(l)<0)l="en";d.lang=l;if(l==="th"){d.classList.add("th");document.querySelectorAll("[data-th]").forEach(function(e){e.tagName==="TITLE"?e.textContent=e.dataset.th:e.content=e.dataset.th})}else if(l!=="en")d.classList.add("i18n-wait")}catch(e){}</script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Watthajak Jinasam","url":"https://gomin2013.github.io/profile/",
+   "jobTitle":"Lead Web Developer","worksFor":{"@type":"Organization","name":"REERACOEN TECH CO.,LTD"},
+   "alumniOf":{"@type":"CollegeOrUniversity","name":"Rajamangala University of Technology Suvarnabhumi"},"knowsLanguage":["th","en","ja"],
+   "knowsAbout":["Ruby on Rails","PostgreSQL","Applicant tracking systems","SwiftUI","LLM integration"],
+   "sameAs":["https://github.com/gomin2013","https://www.linkedin.com/in/gomin2013/","https://gomin2013.github.io/"]}
+  </script>
+  <style>
+    /* Profile-only parts; everything else is site.css. Same shape rule: cards 16px, pills full-pill. */
+    .contact { font: 500 14px var(--mono); color: var(--muted); margin: 18px 0 0; display: flex; flex-wrap: wrap; gap: 0 22px; max-width: none !important; }  /* site.css caps .page-hero p at 60ch */
+    .contact a { color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; min-height: 32px; }  /* 24px+ touch target */
+    .contact i { font-size: 17px; color: var(--accent-text); }
+    .print-only { display: none !important; }
+    .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 32px; }
+    .card + .card { margin-top: 16px; }
+    .job-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; align-items: baseline; }
+    .when { font: 500 14px var(--mono); color: var(--muted); white-space: nowrap; }  /* --faint fails AA in dark */
+    .foot small { color: var(--muted); }
+    .card ul.past { list-style: none; padding-left: 0; }
+    .past li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 24px; }
+    .past li > span:first-child { flex: 1 1 28em; }
+    .past b { color: var(--text); font-weight: 600; }
+    .card ul { margin: 18px 0 0; padding-left: 20px; color: var(--muted); display: grid; gap: 8px; }
+    .card p { color: var(--muted); margin: 10px 0 0; }
+    .tag { display: inline-block; font: 500 12px var(--mono); padding: 3px 10px; border-radius: 999px; background: var(--accent-soft); color: var(--accent-text); vertical-align: middle; margin-left: 8px; letter-spacing: 0; }
+    .tag.soft { background: var(--surface-2); color: var(--muted); }
+    .stats { list-style: none; margin: 0 0 16px; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+    .stats li { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 22px 26px; color: var(--muted); font-size: 15px; }
+    .stats strong { display: block; font-size: 44px; font-weight: 650; letter-spacing: -.03em; line-height: 1.05; color: var(--text); margin-bottom: 4px; }
+    .skill-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+    .skill-grid .card + .card { margin-top: 0; }
+    .card.skill { padding: 24px; display: flex; flex-direction: column; }
+    .skill h3 { display: flex; align-items: center; gap: 10px; font-size: 18px; }
+    .skill h3 i { font-size: 22px; color: var(--accent-text); }
+    .skill p { font-size: 14.5px; line-height: 1.5; margin: 8px 0 16px; }
+    .card ul.chips { list-style: none; margin: auto 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+    .chips li { font: 500 12.5px var(--mono); padding: 4px 10px; border-radius: 999px; background: var(--surface-2); color: var(--text); }
+    .skill.explore { background: transparent; border-style: dashed; }
+    .skill.explore .chips li { background: var(--accent-soft); color: var(--accent-text); }
+    @media (max-width: 1000px) { .skill-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    .rows { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 0; margin: 0; }
+    .rows dt, .rows dd { padding: 16px 0; border-top: 1px solid var(--line); margin: 0; }
+    .rows dt { font-weight: 600; }
+    .rows dd { color: var(--muted); }
+    @media (max-width: 760px) {
+      .skill-grid { grid-template-columns: minmax(0, 1fr); }
+      .stats { gap: 10px; }
+      .stats li { padding: 14px; font-size: 13px; line-height: 1.35; }
+      .stats strong { font-size: 30px; }
+      .card { padding: 24px; }
+      .rows { grid-template-columns: minmax(0, 1fr); }
+      .rows dd { border-top: 0; padding-top: 0; }
+    }
+    /* Print = the PDF resume: light, no chrome, no screenshots, tight spacing */
+    @media print {
+      :root:root { --bg: #fff; --surface: #fff; --surface-2: #f1f1f3; --text: #111; --muted: #333; --faint: #666; --line: #ddd; --accent-text: #1a56bd; --accent-soft: #e6eefc; color-scheme: light; }
+      @page { size: A4; margin: 14mm 14mm; }
+      body { font-size: 10.5pt; line-height: 1.45; }
+      .site-header, .site-footer nav, .lang-dialog { display: none !important; }
+      section, .page-hero { padding: 0 0 14pt; }
+      .wrap { padding: 0; max-width: none; }
+      h1 { font-size: 24pt; } h2 { font-size: 14pt; } h3 { font-size: 11.5pt; }
+      .lede { font-size: 11pt; max-width: none; margin-top: 6pt; }
+      .contact { margin-top: 8pt; font-size: 9pt; }
+      .contact a { min-height: 0; }
+      .when { font-size: 9pt; }
+      .contact .print-only { display: inline-flex !important; }
+      .contact i { font-size: 10pt; }
+      .section-head { margin-bottom: 8pt; }
+      .card { padding: 0; border: 0; break-inside: avoid; }
+      .card ul { margin-top: 6pt; gap: 2pt; }
+      .card + .card { margin-top: 10pt; }
+      .rows dt, .rows dd { padding: 4pt 0; }
+      .rows { grid-template-columns: 120px minmax(0, 1fr); }
+      .stats { gap: 8pt; margin-bottom: 10pt; }
+      .stats li { padding: 6pt 8pt; font-size: 9pt; }
+      .stats strong { font-size: 16pt; }
+      .skill-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10pt 14pt; }
+      .card.skill { padding: 0; }
+      .skill h3 { font-size: 10.5pt; gap: 5pt; } .skill h3 i { font-size: 11pt; }
+      .skill p { font-size: 8.5pt; margin: 2pt 0 5pt; }
+      .chips li { font-size: 7.5pt; padding: 1pt 5pt; border: .5pt solid var(--line); }
+      .card ul.chips { margin-top: 0; gap: 3pt; }
+      .site-footer { margin: 0; padding: 8pt 0 0; }
+      .reveal { opacity: 1 !important; transform: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main"><span class="en">Skip to content</span><span class="th">ข้ามไปเนื้อหา</span></a>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="/profile/">Watthajak Jinasam</a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#experience" class="hide-sm"><span class="en">Experience</span><span class="th">ประสบการณ์</span></a>
+        <a href="#skills" class="hide-sm"><span class="en">Skills</span><span class="th">ทักษะ</span></a>
+      </nav>
+      <button type="button" class="lang-btn" data-lang-open aria-haspopup="dialog" aria-label="Language"><i class="ph ph-globe" aria-hidden="true"></i><span class="lang-name">English</span><span class="lang-code">en</span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow">Lead Web Developer · Ruby on Rails · Bangkok, Thailand</p>
+        <h1>Watthajak Jinasam</h1>
+        <p class="lede"><span class="en">Lead web developer at Reeracoen Tech since 2018, building an in-house applicant tracking system with Ruby on Rails and PostgreSQL — recruitment workflows, dashboard analytics and SQL performance. I also build free, native macOS tools for developers.</span><span class="th">หัวหน้านักพัฒนาเว็บที่ Reeracoen Tech ตั้งแต่ปี 2018 พัฒนาระบบ ATS ภายในด้วย Ruby on Rails และ PostgreSQL ดูแล workflow การสรรหา dashboard วิเคราะห์ข้อมูล และประสิทธิภาพ SQL และสร้างแอป macOS ฟรีสำหรับนักพัฒนา</span></p>
+        <p class="contact">
+          <a href="mailto:gomin2013@hotmail.com"><i class="ph ph-envelope-simple" aria-hidden="true"></i>gomin2013@hotmail.com</a>
+          <a href="https://github.com/gomin2013"><i class="ph ph-github-logo" aria-hidden="true"></i>github.com/gomin2013</a>
+          <a href="https://www.linkedin.com/in/gomin2013/"><i class="ph ph-linkedin-logo" aria-hidden="true"></i>linkedin.com/in/gomin2013</a>
+          <!-- ponytail: on screen you're already here; the PDF still needs the link -->
+          <a class="print-only" href="https://gomin2013.github.io/profile/"><i class="ph ph-globe" aria-hidden="true"></i>gomin2013.github.io/profile</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" style="padding-top:24px">
+      <div class="wrap">
+        <div class="section-head"><h2><span class="en">Experience</span><span class="th">ประสบการณ์ทำงาน</span></h2></div>
+        <article class="card">
+          <div class="job-head">
+            <h3>Lead Web Developer · REERACOEN TECH CO.,LTD</h3>
+            <span class="when"><span class="en">Jan 2018 – present</span><span class="th">ม.ค. 2018 – ปัจจุบัน</span></span>
+          </div>
+          <ul>
+            <li><span class="en">Build and maintain an in-house applicant tracking system in Ruby on Rails: companies, jobs, candidates and the selection process.</span><span class="th">พัฒนาและดูแลระบบ ATS ภายในด้วย Ruby on Rails ครอบคลุมบริษัท ตำแหน่งงาน ผู้สมัคร และขั้นตอนการคัดเลือก</span></li>
+            <li><span class="en">Build features for the company's public sites — the Reeracoen Thailand job board and the HR Board Q&amp;A site: multi-provider sign-in, job search, blogs, landing pages, points and notifications.</span><span class="th">พัฒนาฟีเจอร์ให้เว็บสาธารณะของบริษัท ได้แก่เว็บหางาน Reeracoen Thailand และเว็บถาม-ตอบ HR Board เช่น ล็อกอินหลายช่องทาง ค้นหางาน บล็อก landing page ระบบแต้มและการแจ้งเตือน</span></li>
+            <li><span class="en">Diagnose slow dashboard pages — read the SQL ActiveRecord generates, compare environments and PostgreSQL versions, and rework queries with CTEs, indexes and split queries.</span><span class="th">วิเคราะห์หน้า dashboard ที่ช้า อ่าน SQL ที่ ActiveRecord สร้าง เทียบ environment และเวอร์ชัน PostgreSQL แล้วปรับ query ด้วย CTE, index และการแยก query</span></li>
+            <li><span class="en">Work on recruitment insights: hiring funnel, hires per month, positions at risk, job board comparison and time-to-hire breakdown.</span><span class="th">พัฒนา recruitment insights เช่น hiring funnel, จำนวนการจ้างต่อเดือน, ตำแหน่งที่มีความเสี่ยง, เปรียบเทียบ job board และเวลาในการจ้างแต่ละขั้น</span></li>
+            <li><span class="en">Keep reports correct under division-level permissions.</span><span class="th">ดูแลให้รายงานถูกต้องตามสิทธิ์การมองเห็นระดับแผนก</span></li>
+            <li><span class="en">Run the stack with Docker, PostgreSQL, Redis, Elasticsearch; monitor with Scout APM, Bugsnag and Logtail; deploy to Heroku.</span><span class="th">ดูแลระบบด้วย Docker, PostgreSQL, Redis และ Elasticsearch ติดตามด้วย Scout APM, Bugsnag และ Logtail และ deploy ขึ้น Heroku</span></li>
+            <li><span class="en">Keep code quality with RSpec, RuboCop, Slim-lint and SCSS-lint on CI (CircleCI, GitHub).</span><span class="th">ดูแลคุณภาพโค้ดด้วย RSpec, RuboCop, Slim-lint และ SCSS-lint บน CI (CircleCI, GitHub)</span></li>
+            <li><span class="en">Write system designs for new features, design the database, and split work into parent/child tickets with hour-range estimates.</span><span class="th">เขียน system design ของฟีเจอร์ใหม่ ออกแบบฐานข้อมูล และแตกงานเป็น parent/child tickets พร้อมประเมินเวลาเป็นช่วงชั่วโมง</span></li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3><span class="en">Before 2018 — web design and WordPress</span><span class="th">ก่อนปี 2018 — ออกแบบเว็บและ WordPress</span></h3>
+          <ul class="past">
+            <li><span><b>WordPress Developer</b> · MultiSoft Corporation — <span class="en">custom plugins, theme integration, CMS performance</span><span class="th">พัฒนา plugin, เชื่อมกับ theme, ดูแลประสิทธิภาพ CMS</span></span><span class="when"><span class="en">Aug – Dec 2017</span><span class="th">ส.ค. – ธ.ค. 2017</span></span></li>
+            <li><span><b>Web Designer</b> · Break Field Thailand — <span class="en">UI/UX, responsive sites and landing pages (jQuery, WordPress)</span><span class="th">UI/UX เว็บ responsive และ landing page (jQuery, WordPress)</span></span><span class="when"><span class="en">Jan – Aug 2017</span><span class="th">ม.ค. – ส.ค. 2017</span></span></li>
+            <li><span><b>Web Designer</b> · DYM (Thailand) — <span class="en">SEO landing pages and WordPress themes</span><span class="th">landing page เพื่อ SEO และ WordPress themes</span></span><span class="when"><span class="en">Dec 2012 – Dec 2016</span><span class="th">ธ.ค. 2012 – ธ.ค. 2016</span></span></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" style="padding-top:24px">
+      <div class="wrap">
+        <div class="section-head"><h2><span class="en">Skills</span><span class="th">ทักษะ</span></h2></div>
+        <ul class="stats">
+          <li><strong>8+</strong><span class="en">years with Ruby on Rails</span><span class="th">ปีกับ Ruby on Rails</span></li>
+          <li><strong>13+</strong><span class="en">years building for the web</span><span class="th">ปีในงานเว็บ</span></li>
+          <li><strong>3</strong><span class="en">languages: Thai, English, Japanese</span><span class="th">ภาษา: ไทย อังกฤษ ญี่ปุ่น</span></li>
+        </ul>
+        <div class="skill-grid">
+          <article class="card skill">
+            <h3><i class="ph ph-code" aria-hidden="true"></i><span class="en">Backend</span><span class="th">Backend</span></h3>
+            <p><span class="en">Rails apps since 2018, from data model to deploy.</span><span class="th">ทำแอป Rails ตั้งแต่ปี 2018 ตั้งแต่ออกแบบข้อมูลจนถึง deploy</span></p>
+            <ul class="chips"><li>Ruby</li><li>Ruby on Rails 7</li><li>ActiveRecord</li><li>ActiveAdmin</li><li>REST APIs</li><li>Webhooks</li></ul>
+          </article>
+          <article class="card skill">
+            <h3><i class="ph ph-browser" aria-hidden="true"></i><span class="en">Frontend</span><span class="th">Frontend</span></h3>
+            <p><span class="en">Web designer since 2012 — HTML and CSS first, JavaScript where it helps.</span><span class="th">เริ่มจากงานออกแบบเว็บปี 2012 เน้น HTML/CSS ใช้ JavaScript เมื่อจำเป็น</span></p>
+            <ul class="chips"><li>HTML</li><li>CSS / SCSS</li><li>Slim</li><li>JavaScript</li><li>jQuery</li><li>esbuild</li><li>WordPress</li></ul>
+          </article>
+          <article class="card skill">
+            <h3><i class="ph ph-database" aria-hidden="true"></i><span class="en">Data</span><span class="th">ข้อมูล</span></h3>
+            <p><span class="en">Query tuning for recruitment dashboards.</span><span class="th">ปรับ query ของ dashboard งานสรรหา</span></p>
+            <ul class="chips"><li>PostgreSQL</li><li>SQL · CTEs</li><li>Indexing</li><li>Redis</li><li>Elasticsearch</li></ul>
+          </article>
+          <article class="card skill">
+            <h3><i class="ph ph-shield-check" aria-hidden="true"></i><span class="en">Quality</span><span class="th">คุณภาพโค้ด</span></h3>
+            <p><span class="en">Tests and linters on every change.</span><span class="th">มี test และ linter ทุกครั้งที่แก้โค้ด</span></p>
+            <ul class="chips"><li>RSpec</li><li>RuboCop</li><li>Slim-lint</li><li>SCSS-lint</li><li>CircleCI</li></ul>
+          </article>
+          <article class="card skill">
+            <h3><i class="ph ph-cloud" aria-hidden="true"></i><span class="en">DevOps</span><span class="th">DevOps</span></h3>
+            <p><span class="en">Docker dev environments, Heroku deploys, production monitoring.</span><span class="th">Docker สำหรับ dev, deploy ขึ้น Heroku และติดตามระบบจริง</span></p>
+            <ul class="chips"><li>Docker</li><li>Heroku</li><li>GitHub Actions</li><li>Cloudflare</li><li>Railway</li><li>Scout APM</li><li>Bugsnag</li><li>Logtail</li></ul>
+          </article>
+          <article class="card skill">
+            <h3><i class="ph ph-apple-logo" aria-hidden="true"></i><span class="en">macOS</span><span class="th">macOS</span></h3>
+            <p><span class="en">Native apps with zero third-party dependencies.</span><span class="th">แอป native ไม่มี dependency ภายนอก</span></p>
+            <ul class="chips"><li>Swift 6</li><li>SwiftUI</li><li>Swift Package Manager</li><li>GitHub Releases</li></ul>
+          </article>
+          <article class="card skill">
+            <h3><i class="ph ph-sparkle" aria-hidden="true"></i><span class="en">AI &amp; automation</span><span class="th">AI และระบบอัตโนมัติ</span></h3>
+            <p><span class="en">OCR → LLM extraction prototypes, and AI in daily dev work.</span><span class="th">prototype ดึงข้อมูลด้วย OCR → LLM และใช้ AI ในงาน dev ทุกวัน</span></p>
+            <ul class="chips"><li>LLM APIs</li><li>OpenRouter</li><li>n8n</li><li>OCR</li><li>Claude Code</li><li>GitHub Copilot</li></ul>
+          </article>
+          <article class="card skill explore">
+            <h3><i class="ph ph-flask" aria-hidden="true"></i><span class="en">Exploring</span><span class="th">กำลังศึกษา</span></h3>
+            <p><span class="en">What I'm learning now.</span><span class="th">สิ่งที่กำลังเรียนรู้อยู่</span></p>
+            <ul class="chips"><li>Rails 8</li><li>Ollama · local LLMs</li><li>Cloudflare Workers AI</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" style="padding-top:24px">
+      <div class="wrap">
+        <div class="section-head"><h2><span class="en">Education &amp; languages</span><span class="th">การศึกษาและภาษา</span></h2></div>
+        <dl class="rows">
+          <dt><span class="en">Education</span><span class="th">การศึกษา</span></dt>
+          <dd><span class="en">Bachelor's degree, Business Information Technology — Rajamangala University of Technology Suvarnabhumi, 2008–2012 · GPA 3.79 · President of the “IT For Community” club (2011)</span><span class="th">ปริญญาตรี สาขาเทคโนโลยีสารสนเทศทางธุรกิจ มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ 2008–2012 · GPA 3.79 · ประธานชมรม “IT For Community” (2011)</span></dd>
+          <dt><span class="en">Languages</span><span class="th">ภาษา</span></dt>
+          <dd><span class="en">Thai (native) · English (intermediate) · Japanese (beginner)</span><span class="th">ไทย (ภาษาแม่) · อังกฤษ (ระดับกลาง) · ญี่ปุ่น (เบื้องต้น)</span></dd>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <a class="brand" href="/">Gomin Apps</a>
+      <nav aria-label="Footer">
+        <a href="/hosts-manager/" class="hide-sm">Hosts Manager</a>
+        <a href="/git-exclude-manager/">Git Exclude Manager</a>
+        <a href="https://github.com/gomin2013" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+      <small>© 2026 Watthajak Jinasam</small>
+    </div>
+  </footer>
+  <script src="/hosts-manager/assets/site.js" defer></script>
+</body>
+</html>
