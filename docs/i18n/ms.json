@@ -2,7 +2,6 @@
  "Skip to content": "Langkau ke kandungan",
  "Experience": "Pengalaman",
  "Skills": "Kemahiran",
- "Lead web developer at Reeracoen Tech since 2018, building an in-house applicant tracking system with Ruby on Rails and PostgreSQL — recruitment workflows, dashboard analytics and SQL performance. I also build free, native macOS tools for developers.": "Ketua pembangun web di Reeracoen Tech sejak 2018, membina sistem penjejakan pemohon (ATS) dalaman dengan Ruby on Rails dan PostgreSQL — aliran kerja pengambilan, analitik papan pemuka dan prestasi SQL. Saya juga membina alat macOS asli percuma untuk pembangun.",
  "Jan 2018 – present": "Jan 2018 – kini",
  "Build and maintain an in-house applicant tracking system in Ruby on Rails: companies, jobs, candidates and the selection process.": "Membina dan menyelenggara sistem penjejakan pemohon dalaman dengan Ruby on Rails: syarikat, jawatan, calon dan proses pemilihan.",
  "Build features for the company's public sites — the Reeracoen Thailand job board and the HR Board Q&amp;A site: multi-provider sign-in, job search, blogs, landing pages, points and notifications.": "Membina ciri untuk laman awam syarikat — papan kerja Reeracoen Thailand dan laman soal jawab HR Board: log masuk pelbagai penyedia, carian kerja, blog, halaman pendaratan, mata ganjaran dan pemberitahuan.",
@@ -43,5 +42,7 @@
  "Bachelor's degree, Business Information Technology — Rajamangala University of Technology Suvarnabhumi, 2008–2012 · GPA 3.79 · President of the “IT For Community” club (2011)": "Ijazah Sarjana Muda, Teknologi Maklumat Perniagaan — Rajamangala University of Technology Suvarnabhumi, 2008–2012 · PNGK 3.79 · Presiden kelab “IT For Community” (2011)",
  "Languages": "Bahasa",
  "Thai (native) · English (intermediate) · Japanese (beginner)": "Thai (bahasa ibunda) · Inggeris (pertengahan) · Jepun (permulaan)",
- "Sponsor": "Taja"
+ "Sponsor": "Taja",
+ "Lead web developer at Reeracoen Tech since 2018, building an in-house applicant tracking system with Ruby on Rails and PostgreSQL — recruitment workflows, dashboard analytics and SQL performance. I also build free, native macOS tools for developers and the Claude Code skills behind them.": "Ketua pembangun web di Reeracoen Tech sejak 2018, membina sistem penjejakan pemohon (ATS) dalaman dengan Ruby on Rails dan PostgreSQL — aliran kerja pengambilan, analitik papan pemuka dan prestasi SQL. Saya juga membina alat macOS asli percuma untuk pembangun, serta skill Claude Code di sebaliknya.",
+ "Profile": "Profil"
 }

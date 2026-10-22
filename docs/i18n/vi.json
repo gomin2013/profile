@@ -2,7 +2,6 @@
  "Skip to content": "Chuyển đến nội dung",
  "Experience": "Kinh nghiệm",
  "Skills": "Kỹ năng",
- "Lead web developer at Reeracoen Tech since 2018, building an in-house applicant tracking system with Ruby on Rails and PostgreSQL — recruitment workflows, dashboard analytics and SQL performance. I also build free, native macOS tools for developers.": "Lập trình viên web trưởng tại Reeracoen Tech từ năm 2018, xây dựng hệ thống quản lý tuyển dụng (ATS) nội bộ bằng Ruby on Rails và PostgreSQL — quy trình tuyển dụng, phân tích dashboard và hiệu năng SQL. Tôi cũng làm các công cụ macOS gốc, miễn phí cho lập trình viên.",
  "Jan 2018 – present": "Tháng 1/2018 – nay",
  "Build and maintain an in-house applicant tracking system in Ruby on Rails: companies, jobs, candidates and the selection process.": "Xây dựng và bảo trì hệ thống quản lý tuyển dụng nội bộ bằng Ruby on Rails: công ty, việc làm, ứng viên và quy trình tuyển chọn.",
  "Build features for the company's public sites — the Reeracoen Thailand job board and the HR Board Q&amp;A site: multi-provider sign-in, job search, blogs, landing pages, points and notifications.": "Xây dựng tính năng cho các trang web công khai của công ty — trang việc làm Reeracoen Thailand và trang hỏi đáp HR Board: đăng nhập qua nhiều nhà cung cấp, tìm việc, blog, landing page, điểm thưởng và thông báo.",
@@ -43,5 +42,7 @@
  "Bachelor's degree, Business Information Technology — Rajamangala University of Technology Suvarnabhumi, 2008–2012 · GPA 3.79 · President of the “IT For Community” club (2011)": "Cử nhân, Công nghệ Thông tin Kinh doanh — Rajamangala University of Technology Suvarnabhumi, 2008–2012 · GPA 3.79 · Chủ nhiệm câu lạc bộ “IT For Community” (2011)",
  "Languages": "Ngôn ngữ",
  "Thai (native) · English (intermediate) · Japanese (beginner)": "Tiếng Thái (bản ngữ) · Tiếng Anh (trung cấp) · Tiếng Nhật (sơ cấp)",
- "Sponsor": "Tài trợ"
+ "Sponsor": "Tài trợ",
+ "Lead web developer at Reeracoen Tech since 2018, building an in-house applicant tracking system with Ruby on Rails and PostgreSQL — recruitment workflows, dashboard analytics and SQL performance. I also build free, native macOS tools for developers and the Claude Code skills behind them.": "Lập trình viên web trưởng tại Reeracoen Tech từ năm 2018, xây dựng hệ thống quản lý tuyển dụng (ATS) nội bộ bằng Ruby on Rails và PostgreSQL — quy trình tuyển dụng, phân tích dashboard và hiệu năng SQL. Tôi cũng làm các công cụ macOS gốc, miễn phí cho lập trình viên, cùng các skill Claude Code đằng sau chúng.",
+ "Profile": "Hồ sơ"
 }

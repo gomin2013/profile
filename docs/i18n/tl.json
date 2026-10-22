@@ -2,7 +2,6 @@
  "Skip to content": "Lumaktaw sa nilalaman",
  "Experience": "Karanasan",
  "Skills": "Mga kasanayan",
- "Lead web developer at Reeracoen Tech since 2018, building an in-house applicant tracking system with Ruby on Rails and PostgreSQL — recruitment workflows, dashboard analytics and SQL performance. I also build free, native macOS tools for developers.": "Lead web developer sa Reeracoen Tech mula 2018, gumagawa ng in-house na applicant tracking system (ATS) gamit ang Ruby on Rails at PostgreSQL — recruitment workflows, dashboard analytics at SQL performance. Gumagawa rin ako ng libre at native na macOS tools para sa mga developer.",
  "Jan 2018 – present": "Ene 2018 – kasalukuyan",
  "Build and maintain an in-house applicant tracking system in Ruby on Rails: companies, jobs, candidates and the selection process.": "Gumawa at nagme-maintain ng in-house na applicant tracking system sa Ruby on Rails: mga kumpanya, trabaho, kandidato at proseso ng pagpili.",
  "Build features for the company's public sites — the Reeracoen Thailand job board and the HR Board Q&amp;A site: multi-provider sign-in, job search, blogs, landing pages, points and notifications.": "Gumagawa ng features para sa mga pampublikong site ng kumpanya — ang job board ng Reeracoen Thailand at ang Q&amp;A site na HR Board: sign-in sa maraming provider, paghahanap ng trabaho, blog, landing page, points at notification.",
@@ -43,5 +42,7 @@
  "Bachelor's degree, Business Information Technology — Rajamangala University of Technology Suvarnabhumi, 2008–2012 · GPA 3.79 · President of the “IT For Community” club (2011)": "Bachelor's degree, Business Information Technology — Rajamangala University of Technology Suvarnabhumi, 2008–2012 · GPA 3.79 · Presidente ng “IT For Community” club (2011)",
  "Languages": "Mga wika",
  "Thai (native) · English (intermediate) · Japanese (beginner)": "Thai (katutubo) · Ingles (intermediate) · Hapon (baguhan)",
- "Sponsor": "Mag-sponsor"
+ "Sponsor": "Mag-sponsor",
+ "Lead web developer at Reeracoen Tech since 2018, building an in-house applicant tracking system with Ruby on Rails and PostgreSQL — recruitment workflows, dashboard analytics and SQL performance. I also build free, native macOS tools for developers and the Claude Code skills behind them.": "Lead web developer sa Reeracoen Tech mula 2018, gumagawa ng in-house na applicant tracking system (ATS) gamit ang Ruby on Rails at PostgreSQL — recruitment workflows, dashboard analytics at SQL performance. Gumagawa rin ako ng libre at native na macOS tools para sa mga developer, pati ang Claude Code skills sa likod ng mga ito.",
+ "Profile": "Profile"
 }

@@ -35,3 +35,4 @@ cd ~/Documents/SwiftUI && mkdir -p /tmp/gomin-site && \
 | Gomin Apps (home) | [gomin2013.github.io](https://gomin2013.github.io/) | [gomin2013/gomin2013.github.io](https://github.com/gomin2013/gomin2013.github.io) |
 | Hosts Manager | [/hosts-manager/](https://gomin2013.github.io/hosts-manager/) | [gomin2013/hosts-manager](https://github.com/gomin2013/hosts-manager) |
 | Git Exclude Manager | [/git-exclude-manager/](https://gomin2013.github.io/git-exclude-manager/) | [gomin2013/git-exclude-manager](https://github.com/gomin2013/git-exclude-manager) |
+| AI Voice Manager | [/ai-voice-manager/](https://gomin2013.github.io/ai-voice-manager/) | [gomin2013/ai-voice-manager](https://github.com/gomin2013/ai-voice-manager) |

@@ -2,7 +2,6 @@
  "Skip to content": "Перейти к содержимому",
  "Experience": "Опыт работы",
  "Skills": "Навыки",
- "Lead web developer at Reeracoen Tech since 2018, building an in-house applicant tracking system with Ruby on Rails and PostgreSQL — recruitment workflows, dashboard analytics and SQL performance. I also build free, native macOS tools for developers.": "Ведущий веб-разработчик в Reeracoen Tech с 2018 года: создаю внутреннюю систему учёта кандидатов (ATS) на Ruby on Rails и PostgreSQL — процессы найма, аналитика дашбордов и производительность SQL. В свободное время делаю бесплатные нативные инструменты для macOS для разработчиков.",
  "Jan 2018 – present": "Янв 2018 – наст. время",
  "Build and maintain an in-house applicant tracking system in Ruby on Rails: companies, jobs, candidates and the selection process.": "Разрабатываю и поддерживаю внутреннюю систему учёта кандидатов на Ruby on Rails: компании, вакансии, кандидаты и процесс отбора.",
  "Build features for the company's public sites — the Reeracoen Thailand job board and the HR Board Q&amp;A site: multi-provider sign-in, job search, blogs, landing pages, points and notifications.": "Разрабатываю функции для публичных сайтов компании — сайта вакансий Reeracoen Thailand и сайта вопросов и ответов HR Board: вход через нескольких провайдеров, поиск вакансий, блоги, лендинги, баллы и уведомления.",
@@ -43,5 +42,7 @@
  "Bachelor's degree, Business Information Technology — Rajamangala University of Technology Suvarnabhumi, 2008–2012 · GPA 3.79 · President of the “IT For Community” club (2011)": "Бакалавр, бизнес-информатика — Rajamangala University of Technology Suvarnabhumi, 2008–2012 · средний балл 3,79 · президент клуба «IT For Community» (2011)",
  "Languages": "Языки",
  "Thai (native) · English (intermediate) · Japanese (beginner)": "Тайский (родной) · английский (средний) · японский (начальный)",
- "Sponsor": "Поддержать"
+ "Sponsor": "Поддержать",
+ "Lead web developer at Reeracoen Tech since 2018, building an in-house applicant tracking system with Ruby on Rails and PostgreSQL — recruitment workflows, dashboard analytics and SQL performance. I also build free, native macOS tools for developers and the Claude Code skills behind them.": "Ведущий веб-разработчик в Reeracoen Tech с 2018 года: создаю внутреннюю систему учёта кандидатов (ATS) на Ruby on Rails и PostgreSQL — процессы найма, аналитика дашбордов и производительность SQL. В свободное время делаю бесплатные нативные инструменты для macOS для разработчиков и навыки Claude Code, на которых они построены.",
+ "Profile": "Профиль"
 }

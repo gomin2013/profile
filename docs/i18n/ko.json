@@ -2,7 +2,6 @@
  "Skip to content": "본문으로 건너뛰기",
  "Experience": "경력",
  "Skills": "기술",
- "Lead web developer at Reeracoen Tech since 2018, building an in-house applicant tracking system with Ruby on Rails and PostgreSQL — recruitment workflows, dashboard analytics and SQL performance. I also build free, native macOS tools for developers.": "2018년부터 Reeracoen Tech에서 리드 웹 개발자로 일하며 Ruby on Rails와 PostgreSQL로 사내 채용 관리 시스템(ATS)을 만들고 있습니다. 채용 워크플로, 대시보드 분석, SQL 성능을 담당합니다. 개발자를 위한 무료 네이티브 macOS 도구도 만듭니다.",
  "Jan 2018 – present": "2018년 1월 – 현재",
  "Build and maintain an in-house applicant tracking system in Ruby on Rails: companies, jobs, candidates and the selection process.": "Ruby on Rails로 사내 채용 관리 시스템 개발 및 유지보수: 기업, 채용 공고, 후보자, 전형 과정.",
  "Build features for the company's public sites — the Reeracoen Thailand job board and the HR Board Q&amp;A site: multi-provider sign-in, job search, blogs, landing pages, points and notifications.": "회사 공개 사이트 기능 개발 — Reeracoen Thailand 채용 사이트와 HR Board Q&amp;A 사이트: 다중 제공자 로그인, 채용 검색, 블로그, 랜딩 페이지, 포인트와 알림.",
@@ -43,5 +42,7 @@
  "Bachelor's degree, Business Information Technology — Rajamangala University of Technology Suvarnabhumi, 2008–2012 · GPA 3.79 · President of the “IT For Community” club (2011)": "학사, 경영정보기술 — Rajamangala University of Technology Suvarnabhumi, 2008–2012 · GPA 3.79 · “IT For Community” 동아리 회장 (2011)",
  "Languages": "언어",
  "Thai (native) · English (intermediate) · Japanese (beginner)": "태국어 (모국어) · 영어 (중급) · 일본어 (초급)",
- "Sponsor": "후원하기"
+ "Sponsor": "후원하기",
+ "Lead web developer at Reeracoen Tech since 2018, building an in-house applicant tracking system with Ruby on Rails and PostgreSQL — recruitment workflows, dashboard analytics and SQL performance. I also build free, native macOS tools for developers and the Claude Code skills behind them.": "2018년부터 Reeracoen Tech에서 리드 웹 개발자로 일하며 Ruby on Rails와 PostgreSQL로 사내 채용 관리 시스템(ATS)을 만들고 있습니다. 채용 워크플로, 대시보드 분석, SQL 성능을 담당합니다. 개발자를 위한 무료 네이티브 macOS 도구와 그 바탕이 된 Claude Code 스킬도 만듭니다.",
+ "Profile": "프로필"
 }
